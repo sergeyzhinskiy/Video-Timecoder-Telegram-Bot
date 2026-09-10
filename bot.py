@@ -375,7 +375,7 @@ async def generate_timestamps_with_yandexgpt(transcript: str, video_url: str) ->
     }
     
     prompt = {
-        "modelUri": "gpt://b1gbbo6ho066rbrbvfab/yandexgpt/latest",
+        "modelUri": "gpt://ваш-номер-папки/yandexgpt/latest",
         "completionOptions": {
             'stream': False,
             'temperature': 0.3,
